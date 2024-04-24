@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Bucket List Extension",
+  "name": "Bucket List",
   "version": "1.0",
   "permissions": ["contextMenus", "storage"],
   "background": {
