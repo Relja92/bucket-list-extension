@@ -1,0 +1,44 @@
+/* Styling for the popup container */
+.container {
+  padding: 10px;
+  font-family: "Roboto", sans-serif; /* Modern and clean font */
+  background: #f5f5f5; /* Light background color for a softer look */
+  border: 1px solid #ddd; /* Adds a subtle border */
+  border-radius: 5px; /* Rounds the corners */
+}
+
+/* Header styling */
+h3 {
+  margin: 0;
+  font-size: 18px; /* Larger text for the header */
+  text-align: center; /* Center the header */
+  color: #333; /* Darker text color for readability */
+}
+
+/* List styling */
+ul {
+  list-style-type: none; /* No bullet points */
+  padding: 0;
+}
+
+li {
+  display: flex; /* Allows for horizontal alignment of elements */
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center; /* Vertically align items */
+  padding: 5px;
+  border-bottom: 1px solid #ddd; /* Divides list items */
+}
+
+/* Button styling */
+button {
+  padding: 5px 10px; /* Padding for a comfortable click area */
+  border: none; /* No border for a cleaner look */
+  border-radius: 5px; /* Rounds the corners */
+  background-color: #4285f4; /* Blue color, matching Google branding */
+  color: white; /* White text for contrast */
+  cursor: pointer; /* Changes cursor to a hand */
+}
+
+button:hover {
+  background-color: #3367d6; /* Darker blue on hover for interactivity */
+}
